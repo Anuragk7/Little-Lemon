@@ -1,0 +1,38 @@
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin: 0.5rem;
+    font-weight: bold;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    margin-right: 2rem;
+}
+a {
+    text-decoration: none;
+    color:black
+}
+a:hover {
+    border-bottom: 0.1rem black solid;
+
+}
+.hero-text{
+    background-color: #495e57;
+    font-family: markazi-text;
+}
+.hero-text h1 {
+    color: #e9c511;
+}
+.hero-text h5 {
+    color: white;
+}
+.hero-text h1,h5 {
+    margin: 0px;
+    margin-left: 20%;
+}
