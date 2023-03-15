@@ -3,11 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <header className="App-header">
-       
+       <meta name = "description" value = "Little Lemon is the ultimate destination for you to end your hunger. Don't feel like getting up, we'll get your food to you!"/>
+       <meta name = "title" value = "Little Lemon"/>
+       <meta name = "language" value = "english"/>
+       <meta name="HandheldFriendly" content="true"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
       </header>
-    </div>
+    </>
   );
 }
 
