@@ -1,5 +1,6 @@
 
 import './App.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       </header>
+      <Navbar/>
     </>
   );
 }
