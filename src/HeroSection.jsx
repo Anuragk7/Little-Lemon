@@ -1,4 +1,4 @@
-
+import logo from "./assests/restauranfood.jpg";
 function HeroSection() {
  return (<div className="herosection">
    <div className="hero-text">
@@ -8,9 +8,8 @@ function HeroSection() {
          Lemon dishes which don't just make you full but make you happy!</p>
          <button>Reserve a table</button>
    </div>
-   <div className="hero-pic">
-      
-   </div>
+   <img className="hero-pic" src = {logo} alt = "our star dish"></img>
+   
  </div>);
 }
 export default HeroSection;

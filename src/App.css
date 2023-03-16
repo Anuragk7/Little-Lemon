@@ -1,10 +1,22 @@
 ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0px;
 }
 li {
     margin: 0.5rem;
     font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:800px) { 
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .head {
     display: flex;
@@ -28,10 +40,13 @@ a:hover {
     display: flex;
     justify-content:center;
     padding-top: 7%;
+   
 }
+
 .hero-text {
     width: 30%;
-   
+    margin-right:5%;
+    margin-left:3%;
     padding-bottom: 3%;
 }
 .hero-text h1 {
@@ -49,16 +64,14 @@ a:hover {
     box-shadow: none;
     border: none;
     border-radius: 7px;
-    margin:0px, 2%;
+    margin:0px, 10%;
     font-weight: bold;
 }
 .hero-pic  {
     width: 30%;
-    background-image: url("assests/restauranfood.jpg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    max-height: 100%;
     margin-left:5%;
+    margin-right:5%;
     border-radius: 16px;
     margin-bottom: -5%;
 
@@ -66,4 +79,30 @@ a:hover {
 
 h1 {
     font-size: 3rem;
+}
+@media screen and (max-width:675px) {
+    .hero-text{
+        width:90%;
+        border: red 1px solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-text button {
+        margin:0 auto;
+        display: block;
+    }
+    
+    .hero-pic {
+        width:80%;
+        max-width: 100%;
+        margin: auto;
+        
+    }
+    .herosection{
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+       justify-content: center;
+       
+    }
 }
