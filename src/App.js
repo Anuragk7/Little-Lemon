@@ -2,6 +2,7 @@
 import './App.css';
 import HeroSection from './HeroSection';
 import Navbar from './Navbar';
+import Specials from './Specials';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </header>
       <Navbar/>
       <HeroSection/>
+      <Specials/>
     </>
   );
 }
